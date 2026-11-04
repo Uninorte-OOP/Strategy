@@ -10,6 +10,6 @@ package core.base.strategies;
  */
 public interface Strategy {
     
-    public int execute(int a, int b);
+    public abstract int execute(int a, int b);
     
 }
